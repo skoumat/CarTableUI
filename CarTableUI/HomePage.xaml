@@ -1,0 +1,43 @@
+﻿<local:PolyPage x:Class="CarTableUI.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CarTableUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HomePage">
+
+    <local:PolyPage.Resources>
+        <SolidColorBrush x:Key="BgTextBrush" Color="#EFFFFF" />
+    </local:PolyPage.Resources>
+
+    <Grid Name="Grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50" Name="tableHeader"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <Button Name="loadFile" Content="Načíst soubor" Click="LoadFileHome" Height="50"/>
+
+            <Popup Name="errorPopup" IsOpen="false" Visibility="Collapsed" Placement="Center">
+                <StackPanel>
+                    <Border BorderThickness="1">
+                        <TextBlock Name="errorPopupText" Background="{StaticResource BgTextBrush}" Padding="30"/>
+                    </Border>
+
+                    <Button x:Name="closeButton" Content="Zavřít" Click="CloseButton_Click"/>
+                </StackPanel>
+            </Popup>
+        </StackPanel>
+    </Grid>
+</local:PolyPage>

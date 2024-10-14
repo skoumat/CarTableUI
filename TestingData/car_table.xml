@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car>
+    <Model>Škoda Okávia</Model>
+    <SoldDate>2010-12-02T00:00:00</SoldDate>
+    <Price>500000</Price>
+    <VAT>20</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Felicia</Model>
+    <SoldDate>2000-12-03T00:00:00</SoldDate>
+    <Price>210000</Price>
+    <VAT>20</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Fabia</Model>
+    <SoldDate>2010-12-04T00:00:00</SoldDate>
+    <Price>350000</Price>
+    <VAT>20</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Oktávia</Model>
+    <SoldDate>2010-12-04T00:00:00</SoldDate>
+    <Price>500000</Price>
+    <VAT>20</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Oktávia</Model>
+    <SoldDate>2010-12-05T00:00:00</SoldDate>
+    <Price>500000</Price>
+    <VAT>20</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Fabia</Model>
+    <SoldDate>2010-12-05T00:00:00</SoldDate>
+    <Price>350000</Price>
+    <VAT>20</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Fabia</Model>
+    <SoldDate>2010-12-06T00:00:00</SoldDate>
+    <Price>350000</Price>
+    <VAT>20</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Forman</Model>
+    <SoldDate>2000-12-04T00:00:00</SoldDate>
+    <Price>100000</Price>
+    <VAT>19</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Favorit</Model>
+    <SoldDate>2000-12-05T00:00:00</SoldDate>
+    <Price>80000</Price>
+    <VAT>19</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Forman</Model>
+    <SoldDate>2000-12-06T00:00:00</SoldDate>
+    <Price>100000</Price>
+    <VAT>19</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Felicia</Model>
+    <SoldDate>2000-12-03T00:00:00</SoldDate>
+    <Price>210000</Price>
+    <VAT>19</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Felicia</Model>
+    <SoldDate>2000-12-02T00:00:00</SoldDate>
+    <Price>210000</Price>
+    <VAT>19</VAT>
+  </Car>
+  <Car>
+    <Model>Škoda Oktávia</Model>
+    <SoldDate>2010-12-07T00:00:00</SoldDate>
+    <Price>500000</Price>
+    <VAT>20</VAT>
+  </Car>
+</ArrayOfCar>
